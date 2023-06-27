@@ -9,7 +9,7 @@ function calculate(button){
     if(value=='CLEAR'){
         calculation = []
         screenDisplay.textContent = '.'
-    }else if (valu == '='){
+    }else if (value == '='){
         screenDisplay.innerHTML = eval(accumulativeCalculation)
     }else{
         calculation.push(value)
